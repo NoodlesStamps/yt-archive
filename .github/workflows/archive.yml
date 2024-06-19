@@ -1,7 +1,7 @@
 on:
   schedule:
     # run every 40th minute of every hour
-    - cron:  '0 14 * * *'
+    - cron:  '0 */7 * * *'
   workflow_dispatch:
 
 jobs:
